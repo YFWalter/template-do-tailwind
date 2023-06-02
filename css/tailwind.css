@@ -8,3 +8,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .btn-blue {
+        @apply px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium text-white font-bold active:bg-do-blue-mediumdark;
+    }
+
+    .panel {
+        @apply bg-white rounded-lg shadow-lg px-5 py-5;
+    }
+}
